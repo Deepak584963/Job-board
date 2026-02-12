@@ -5,12 +5,13 @@ import JobCard from "@/components/JobCard";
 import { notFound } from "next/navigation";
 
 interface PageProps {
-  params: { type: string };
+  params: Promise<{ type: string }>;
 }
 
 /** Category-level metadata for SEO */
-export function generateMetadata({ params }: PageProps): Metadata {
-  const label = params.type.charAt(0).toUpperCase() + params.type.slice(1);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { type } = await params;
+  const label = type.charAt(0).toUpperCase() + type.slice(1);
   return {
     title: `${label} Jobs`,
     description: `Browse the latest ${label.toLowerCase()} job openings. Find your next ${label.toLowerCase()} opportunity on JobBoard.`,
@@ -22,9 +23,10 @@ export function generateStaticParams() {
   return getCategories().map((type) => ({ type }));
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const jobs = getJobsByCategory(params.type);
-  const label = params.type.charAt(0).toUpperCase() + params.type.slice(1);
+export default async function CategoryPage({ params }: PageProps) {
+  const { type } = await params;
+  const jobs = getJobsByCategory(type);
+  const label = type.charAt(0).toUpperCase() + type.slice(1);
 
   // Show 404 for categories with no jobs
   if (jobs.length === 0) notFound();

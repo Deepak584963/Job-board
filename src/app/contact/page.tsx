@@ -25,10 +25,10 @@ export default function ContactPage() {
         <li>
           <strong>Email:</strong>{" "}
           <a
-            href="mailto:hello@jobboard.example.com"
+            href="mailto:support@yourjobboard.com"
             className="text-blue-600 hover:underline"
           >
-            hello@jobboard.example.com
+            support@yourjobboard.com
           </a>
         </li>
         <li>

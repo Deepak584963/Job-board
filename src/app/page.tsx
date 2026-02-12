@@ -14,7 +14,7 @@ export default function HomePage() {
           Find Your Next Job Opportunity
         </h1>
         <p className="mx-auto mt-3 max-w-xl text-gray-600">
-          Browse curated job listings in frontend development, remote positions,
+          Browse curated job listings in frontend development, internships, remote positions,
           and roles perfect for freshers.
         </p>
 
@@ -25,6 +25,12 @@ export default function HomePage() {
             className="rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-700 hover:bg-blue-200"
           >
             Frontend Jobs
+          </Link>
+          <Link
+            href="/category/internship"
+            className="rounded-full bg-orange-100 px-4 py-1.5 text-sm font-medium text-orange-700 hover:bg-orange-200"
+          >
+            Internship Jobs
           </Link>
           <Link
             href="/category/remote"
