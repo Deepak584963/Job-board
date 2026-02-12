@@ -6,7 +6,7 @@ import { getAllJobs, getCategories } from "@/lib/jobs";
  * Helps search engines discover and index all pages.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://jobboard.example.com";
+  const baseUrl = "https://job-board-one-chi.vercel.app/";
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
