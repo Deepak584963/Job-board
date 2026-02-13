@@ -782,6 +782,429 @@ export const jobs: Job[] = [
     applyLink: "https://www.linkedin.com/jobs/view/4369388680",
     postedAt: "2025-02-12",
   },
+  {
+    title: "Associate Front End Developer",
+    company: "HelpRush",
+    location: "Kolkata, India",
+    category: "frontend",
+    slug: "associate-front-end-developer-helprush-kolkata",
+    description:
+      "HelpRush is hiring Associate Front End Developers in Kolkata with 0–3 years of experience. Join a dynamic team to build responsive and scalable web applications.",
+    overview:
+      "HelpRush is looking for a motivated Associate Front End Developer to join our team in Kolkata. In this role, you will be responsible for implementing visual elements that users see and interact with in a web application. You will work closely with UI/UX designers and backend developers to bridge the gap between graphical design and technical implementation. This position offers an excellent opportunity for early-career developers to work on diverse projects and enhance their skills in modern frontend technologies.",
+    responsibilities: [
+      "Develop and maintain user-facing features using modern JavaScript frameworks.",
+      "Ensure the technical feasibility of UI/UX designs.",
+      "Optimize applications for maximum speed and scalability.",
+      "Collaborate with backend developers to integrate APIs.",
+      "Write reusable code and libraries for future use.",
+      "Troubleshoot and debug issues across different browsers and devices."
+    ],
+    requirements: [
+      "0–3 years of experience in frontend development.",
+      "Proficient understanding of web markup, including HTML5 and CSS3.",
+      "Basic understanding of server-side CSS pre-processing platforms, such as LESS and SASS.",
+      "Proficient understanding of client-side scripting and JavaScript frameworks, including jQuery.",
+      "Good understanding of asynchronous request handling, partial page updates, and AJAX.",
+      "Familiarity with cross-browser compatibility issues and ways to work around them.",
+      "Ideally, familiarity with React.js or similar modern frameworks."
+    ],
+    benefits: [
+      "Competitive salary and performance-based incentives.",
+      "Professional development and training opportunities.",
+      "Collaborative and inclusive work environment.",
+      "Health insurance and wellness programs.",
+      "Flexible work arrangements."
+    ],
+    aboutCompany:
+      "HelpRush is a technology services company dedicated to providing efficient and innovative solutions to its clients. We focus on delivering high-quality web and mobile applications that drive business growth.",
+    salary: "Not Disclosed",
+    experience: "0–3 Years",
+    skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Responsive Design"],
+    applyLink:
+      "https://www.naukri.com/job-listings-associate-front-end-developer-helprush-kolkata-0-to-3-years-120226501454",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "Associate Front End Developer",
+    company: "HelpRush",
+    location: "Bengaluru, India",
+    category: "frontend",
+    slug: "associate-front-end-developer-helprush-bengaluru",
+    description:
+      "HelpRush is expanding its team in Bengaluru and looking for Associate Front End Developers (0–3 years experience). Build cutting-edge web interfaces in a collaborative environment.",
+    overview:
+      "HelpRush is seeking a talented Associate Front End Developer for our Bengaluru office. As part of our engineering team, you will contribute to the development of high-performance web applications. You will be instrumental in translating design wireframes into code that produces visual elements of the application. This role requires a good understanding of frontend technologies and a passion for creating seamless user experiences. You will have the chance to work with experienced professionals and grow your career in a tech-forward city.",
+    responsibilities: [
+      "Implement responsive web designs using HTML, CSS, and JavaScript.",
+      "Collaborate with the design team to ensure high-quality visual implementation.",
+      "Develop and test new user-facing features.",
+      "Build reusable code and components for future use.",
+      "Optimize applications for speed and scalability.",
+      "Participate in code reviews and team meetings."
+    ],
+    requirements: [
+      "0–3 years of professional experience in web development.",
+      "Strong proficiency in JavaScript, HTML5, and CSS3.",
+      "Experience with modern frontend frameworks like React.js or Angular is a plus.",
+      "Understanding of code versioning tools, such as Git.",
+      "Ability to work independently as well as in a team environment.",
+      "Good problem-solving skills and attention to detail."
+    ],
+    benefits: [
+      "Opportunity to work on challenging projects.",
+      "Mentorship from senior developers.",
+      "Competitive compensation package.",
+      "Dynamic and supportive team culture.",
+      "Regular team outings and events."
+    ],
+    aboutCompany:
+      "HelpRush acts as a strategic partner for businesses looking to leverage technology for growth. With a focus on agility and quality, our Bengaluru team drives innovation in web and mobile development.",
+    salary: "Not Disclosed",
+    experience: "0–3 Years",
+    skills: ["JavaScript", "HTML5", "CSS3", "Git", "Web Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-associate-front-end-developer-helprush-bengaluru-0-to-3-years-120226501453",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "React.js Developer",
+    company: "DigitKode Software Private Limited",
+    location: "Nagercoil, India",
+    category: "frontend",
+    slug: "react-js-developer-digitkode-software-nagercoil",
+    description:
+      "DigitKode Software is hiring React.js Developers in Nagercoil with 0–2 years of experience. Candidates compliant with modern React workflows are encouraged to apply.",
+    overview:
+      "DigitKode Software Private Limited is looking for a skilled React.js Developer to join our team in Nagercoil. In this role, you will be responsible for developing and implementing user interface components using React.js workflows such as Redux or Flux. You will also be involved in profiling and improving front-end performance and documenting our front-end codebase. This is a great opportunity for developers with 0-2 years of experience who want to specialize in React and work on modern web architectures.",
+    responsibilities: [
+      "Developing new user-facing features using React.js.",
+      "Building reusable components and front-end libraries for future use.",
+      "Translating designs and wireframes into high-quality code.",
+      "Optimizing components for maximum performance across a vast array of web-capable devices and browsers.",
+      " collaborating with the backend team to integrate APIs.",
+      "Reviewing application requirements and interface designs."
+    ],
+    requirements: [
+      "0–2 years of experience in React.js development.",
+      "Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model.",
+      "Thorough understanding of React.js and its core principles.",
+      "Experience with popular React.js workflows (such as Flux or Redux).",
+      "Familiarity with newer specifications of EcmaScript.",
+      "Knowledge of isomorphic React is a plus.",
+      "Familiarity with RESTful APIs."
+    ],
+    benefits: [
+      "Competitive salary based on skills and experience.",
+      "Opportunity to work with a passionate team.",
+      "Learning and development support.",
+      "Work-life balance.",
+      "Performance incentives."
+    ],
+    aboutCompany:
+      "DigitKode Software Private Limited provides cutting-edge software solutions to clients worldwide. We are committed to fostering a culture of technical excellence and innovation.",
+    salary: "Not Disclosed",
+    experience: "0–2 Years",
+    skills: ["React.js", "JavaScript", "Redux", "HTML5", "CSS3"],
+    applyLink:
+      "https://www.naukri.com/job-listings-react-js-developer-digitkode-software-private-limited-nagercoil-0-to-2-years-120226504225",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "React.js Developer",
+    company: "Virtusa Consulting Services Pvt Ltd",
+    location: "Chennai, India",
+    category: "frontend",
+    slug: "react-js-developer-virtusa-chennai",
+    description:
+      "Virtusa is hiring experienced React.js Developers (2–4 years) in Chennai. Join a global consulting firm and work on enterprise-grade applications.",
+    overview:
+      "Virtusa Consulting Services is seeking experienced React.js Developers to join our Chennai team. As a React.js Developer, you will be responsible for designing and implementing UI components for complex web applications. You will work in an agile environment, collaborating with cross-functional teams to deliver high-quality software solutions. This role is ideal for candidates with 2-4 years of experience who have a deep understanding of React ecosystem and best practices in frontend engineering.",
+    responsibilities: [
+      "Develop user interfaces for modern rich internet applications with the latest front-end technologies.",
+      "Perform product analysis and development tasks of increasingly complex nature which may require extensive research and analysis.",
+      "Writing tested and documented JavaScript, HTML and CSS.",
+      "Make design and technical decisions for AngularJS/React projects.",
+      "Develop application code and unit test in the AngularJS, Rest Web Services and Java technologies for the Application Development Center.",
+      "Ensuring high performance on mobile and desktop."
+    ],
+    requirements: [
+      "2–4 years of strong experience in React.js development.",
+      "Proficient in JavaScript, HTML5, CSS3, and ES6+.",
+      "Experience with state management libraries like Redux or Context API.",
+      "Knowledge of modern frontend build pipelines and tools.",
+      "Understanding of server-side proficiencies is a plus.",
+      "Strong problem-solving and analytical skills.",
+      "Excellent communication and teamwork skills."
+    ],
+    benefits: [
+      "Comprehensive benefits package including health insurance.",
+      "Opportunity to work with global clients.",
+      "Structured career growth path.",
+      "Access to continuous learning platforms.",
+      "Global mobility opportunities."
+    ],
+    aboutCompany:
+      "Virtusa Corporation is a global provider of digital business strategy, digital engineering, and information technology (IT) services and solutions that help clients change, disrupt, and unlock new value.",
+    salary: "Not Disclosed",
+    experience: "2–4 Years",
+    skills: ["React.js", "JavaScript", "Redux", "Agile", "Web Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-react-js-developer-virtusa-consulting-services-pvt-ltd-chennai-2-to-4-years-120226914949",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "MERN Stack Developer",
+    company: "Coddle Technologies Private Ltd",
+    location: "Bengaluru, India",
+    category: "frontend",
+    slug: "mern-stack-developer-coddle-technologies-bengaluru",
+    description:
+      "Coddle Technologies is looking for MERN Stack Developers (0–2 years) in Bengaluru. Freshers and early professionals with full-stack skills can apply.",
+    overview:
+      "Coddle Technologies is hiring MERN Stack Developers to assist in building scalable web applications. Based in Bengaluru, this role is suitable for candidates with 0–2 years of experience who are proficient in MongoDB, Express.js, React.js, and Node.js. You will be working on end-to-end development tasks, from designing database schemas to implementing responsive frontend interfaces. This is an exciting opportunity to work on diverse projects and gain comprehensive full-stack development experience.",
+    responsibilities: [
+      "Building interactive consumer data from multiple systems and RESTfully abstract to the UI through a Node.js backend.",
+      "Define code architecture decisions to support a high-performance and scalable product with a minimal footprint.",
+      "Address and improve any technical issues.",
+      "Collaborate well with engineers, researchers, and data implementation specialists to design and create advanced, elegant and efficient systems.",
+      "Design and maintain large and complex databases.",
+      "Develop and maintain the backend and frontend of the application."
+    ],
+    requirements: [
+      "0–2 years of experience in MERN stack development.",
+      "In-depth knowledge of NodeJS, ExpressJS or Restify.",
+      "Experience creating front end applications using ReactJS.",
+      "Experience with NoSQL databases such as MongoDB.",
+      "Knowledge of code versioning tools such as Git.",
+      "Strong analytical and problem-solving skills."
+    ],
+    benefits: [
+      "Exposure to full-cycle product development.",
+      "Competitive salary packages.",
+      "Friendly and collaborative work environment.",
+      "Opportunities for skill enhancement and training.",
+      "Flexible work timings."
+    ],
+    aboutCompany:
+      "Coddle Technologies is an IT solutions provider specializing in web and mobile app development. We focus on delivering innovative and cost-effective technology solutions to businesses of all sizes.",
+    salary: "Not Disclosed",
+    experience: "0–2 Years",
+    skills: ["MongoDB", "Express.js", "React.js", "Node.js", "Full Stack Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-mern-stack-developer-coddle-technologies-private-ltd-bengaluru-0-to-2-years-120226500917",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "Software Developer",
+    company: "Avixset Technologies",
+    location: "Thiruvananthapuram, India",
+    category: "frontend",
+    slug: "software-developer-avixset-technologies-thiruvananthapuram",
+    description:
+      "Avixset Technologies is hiring Software Developers in Thiruvananthapuram. Open to candidates with 0–5 years of experience looking to build robust software solutions.",
+    overview:
+      "Avixset Technologies connects businesses with top-tier talent and technology. We are looking for Software Developers of varying experience levels (0-5 years) to join our team in Thiruvananthapuram. In this role, you will be involved in the full software development lifecycle, designing, testing, and maintaining software applications. Whether you are a fresher or an experienced developer, you will find opportunities to challenge yourself and contribute to meaningful projects.",
+    responsibilities: [
+      "Analyze user requirements and convert requirements to design documents.",
+      "Write code for software programs and applications.",
+      "Perform unit testing and debugging.",
+      "Maintain and upgrade existing systems.",
+      "Collaborate with other developers and stakeholders.",
+      "Ensure software meets all requirements of quality, security, modifiability, extensibility etc."
+    ],
+    requirements: [
+      "0–5 years of experience in software development.",
+      "Proficiency in at least one modern programming language (Java, Python, JavaScript, etc.).",
+      "Understanding of software development lifecycle (SDLC).",
+      "Knowledge of databases (SQL/NoSQL).",
+      "Ability to learn new technologies quickly.",
+      "Good communication skills."
+    ],
+    benefits: [
+      "Competitive salary and benefits.",
+      "Professional growth opportunities.",
+      "Work with the latest technologies.",
+      "Supportive team environment.",
+      "Work-life balance."
+    ],
+    aboutCompany:
+      "Avixset Technologies is a technology company focused on delivering high-quality software solutions and services. We value innovation and are dedicated to helping our clients achieve their business goals.",
+    salary: "Not Disclosed",
+    experience: "0–5 Years",
+    skills: ["Software Development", "Programming", "SDLC", "Database Management", "Problem Solving"],
+    applyLink:
+      "https://www.naukri.com/job-listings-software-developer-avixset-technologies-thiruvananthapuram-0-to-5-years-120226502827",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "React.js Developer",
+    company: "InnovSense Technologies",
+    location: "Ahmedabad, India",
+    category: "frontend",
+    slug: "react-js-developer-innovsense-technologies-ahmedabad",
+    description:
+      "InnovSense Technologies in Ahmedabad is looking for React.js Developers with 0–3 years of experience. Join a creative team building modern web apps.",
+    overview:
+      "InnovSense Technologies is seeking a dedicated React.js Developer to join our team in Ahmedabad. We are looking for candidates with 0–3 years of experience who demonstrate a strong understanding of Core JavaScript and React principles. As a React.js Developer, you will be responsible for developing user interface components and implementing them following well-known React.js workflows. You will coordinate with the rest of the team working on different layers of the infrastructure.",
+    responsibilities: [
+      "Developing new user-facing features using React.js.",
+      "Building reusable components and front-end libraries.",
+      "Translating designs and wireframes into high-quality code.",
+      "Optimizing components for maximum performance.",
+      "Collaborating with the design and backend teams.",
+      "Staying up-to-date with recent developments in the React ecosystem."
+    ],
+    requirements: [
+      "0–3 years of experience with React.js.",
+      "Strong proficiency in JavaScript, including DOM manipulation.",
+      "Experience with React.js workflows (Redux, Context API).",
+      "Familiarity with RESTful APIs.",
+      "Knowledge of modern authorization mechanisms.",
+      "Ability to understand business requirements."
+    ],
+    benefits: [
+      "Competitive compensation.",
+      "Opportunity to work on diverse projects.",
+      "Friendly work culture.",
+      "Mentorship and training.",
+      "Flexible leave policy."
+    ],
+    aboutCompany:
+      "InnovSense Technologies is an IT company providing web and mobile app development services. We focus on delivering innovative solutions that add value to our clients' businesses.",
+    salary: "Not Disclosed",
+    experience: "0–3 Years",
+    skills: ["React.js", "JavaScript", "Redux", "HTML5", "CSS3"],
+    applyLink:
+      "https://www.naukri.com/job-listings-react-js-developer-innovsense-technologies-ahmedabad-0-to-3-years-130226503917",
+    postedAt: "2025-02-13",
+  },
+  {
+    title: "Angular Developer",
+    company: "Crescoworks Pvt Ltd",
+    location: "Bengaluru, India",
+    category: "frontend",
+    slug: "angular-developer-crescoworks-bengaluru",
+    description:
+      "Crescoworks is hiring Angular Developers (0-2 years) in Bengaluru. Fresh graduates and junior developers with Angular skills are welcome.",
+    overview:
+      "Crescoworks Pvt Ltd is looking for a passionate Angular Developer to join our team in Bengaluru. We are looking for candidates with 0-2 years of experience who are eager to build dynamic single-page applications. As an Angular Developer, you will be responsible for the client-side of our service. Your primary focus will be to implement specific user interfaces in the form of a mobile and desktop web app, with a focus on performance. Your main duties will include creating modules and components and coupling them together into a functional app.",
+    responsibilities: [
+      "Delivering a complete front end application.",
+      "Ensuring high performance on mobile and desktop.",
+      "Writing tested, idiomatic, and documented JavaScript, HTML and CSS.",
+      "Coordinating the workflow between the graphic designer, the HTML coder, and yourself.",
+      "Cooperating with the back-end developer in the process of building the RESTful API.",
+      "Communicating with external web services."
+    ],
+    requirements: [
+      "0-2 years of experience in Angular development.",
+      "Proficiency with JavaScript and HTML5.",
+      "Deep knowledge of Angular practices and commonly used modules based on extensive work experience.",
+      "Creating self-contained, reusable, and testable modules and components.",
+      "Thorough understanding of the responsibilities of the platform, database, API, caching layer, proxies, and other web services used in the system.",
+      "Validating user actions on the client side and providing responsive feedback."
+    ],
+    benefits: [
+      "Competitive salary.",
+      "Opportunity to work on diverse projects.",
+      "Collaborative team environment.",
+      "Career growth opportunities.",
+      "Health insurance."
+    ],
+    aboutCompany:
+      "Crescoworks is a technology consulting and services company. We help businesses leverage technology to drive growth and efficiency.",
+    salary: "Not Disclosed",
+    experience: "0–2 Years",
+    skills: ["Angular", "JavaScript", "HTML5", "CSS3", "TypeScript"],
+    applyLink:
+      "https://www.naukri.com/job-listings-crescoworks-is-hiring-for-angular-developer-crescoworks-pvt-ltd-bengaluru-0-to-2-years-120226011403",
+    postedAt: "2025-02-12",
+  },
+  {
+    title: "Software Development Engineer",
+    company: "Accenture",
+    location: "Chennai, India",
+    category: "frontend",
+    slug: "software-development-engineer-accenture-chennai",
+    description:
+      "Accenture is hiring Software Development Engineers in Chennai with 1–4 years of experience. Work with a global leader in tech consulting and services.",
+    overview:
+      "Accenture is looking for Software Development Engineers to join our Chennai team. We are looking for candidates with 1–4 years of experience who are passionate about technology and innovation. In this role, you will be responsible for designing, building, and configuring applications to meet business process and application requirements. You will work in a highly collaborative environment, leveraging the latest technologies to deliver high-quality software solutions for global clients.",
+    responsibilities: [
+      "Design, build, and configure applications to meet business process and application requirements.",
+      "Write clean, scalable, and efficient code.",
+      "Participate in the full software development lifecycle.",
+      "Collaborate with cross-functional teams to define, design, and ship new features.",
+      "Troubleshoot and debug applications.",
+      "Follow best practices in software engineering."
+    ],
+    requirements: [
+      "1–4 years of experience in software development.",
+      "Proficient in one or more programming languages (Java, .NET, JavaScript, etc.).",
+      "Experience with modern software development methodologies like Agile/Scrum.",
+      "Good understanding of databases and data structures.",
+      "Strong problem-solving and analytical skills.",
+      "Excellent communication skills."
+    ],
+    benefits: [
+      "World-class training and development programs.",
+      "Opportunity to work with Fortune 500 clients.",
+      "Comprehensive health and wellness benefits.",
+      "Inclusive and diverse work culture.",
+      "Performance-based bonuses."
+    ],
+    aboutCompany:
+      "Accenture is a global professional services company with leading capabilities in digital, cloud, and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song.",
+    salary: "Not Disclosed",
+    experience: "1–4 Years",
+    skills: ["Software Engineering", "Agile", "Programming", "Problem Solving", "Consulting"],
+    applyLink:
+      "https://www.naukri.com/job-listings-software-development-engineer-accenture-solutions-pvt-ltd-chennai-1-to-4-years-100226934697",
+    postedAt: "2025-02-10",
+  },
+  {
+    title: "Frontend Developer Intern",
+    company: "SourceEase",
+    location: "New Delhi, India",
+    category: "internship",
+    slug: "frontend-developer-intern-sourceease-new-delhi",
+    description:
+      "SourceEase is hiring Frontend Developer Interns in New Delhi. This 0–1 year experience role is perfect for freshers looking to start their career.",
+    overview:
+      "SourceEase HR Services is looking for a motivated Frontend Developer Intern to join our team in New Delhi. This internship is designed for candidates with 0–1 year of experience or fresh graduates who have a strong interest in frontend technologies. During this internship, you will work on real-world projects, assist in developing user interfaces, and learn from experienced developers. It creates a pathway for you to understand professional development workflows and best practices.",
+    responsibilities: [
+      "Assist in developing and maintaining web applications.",
+      "Collaborate with the design team to implement user interfaces.",
+      "Write clean and manageable HTML, CSS, and JavaScript code.",
+      "Test and debug applications across different browsers.",
+      "Participate in team meetings and contribute ideas.",
+      "Learn new technologies and frameworks as required."
+    ],
+    requirements: [
+      "0–1 year of experience or relevant internship experience.",
+      "Basic understanding of HTML, CSS, and JavaScript.",
+      "Familiarity with frontend frameworks like React or Angular is a plus.",
+      "Eagerness to learn and grow.",
+      "Good communication skills.",
+      "Ability to work in a team."
+    ],
+    benefits: [
+      "Hands-on experience with live projects.",
+      "Mentorship from industry professionals.",
+      "Internship completion certificate.",
+      "Potential for pre-placement offer based on performance.",
+      "Positive and learning-oriented work environment."
+    ],
+    aboutCompany:
+      "SourceEase HR Services provides recruitment and staffing solutions to various industries. We are committed to connecting talent with opportunity and supporting the growth of aspiring professionals.",
+    salary: "Not Disclosed",
+    experience: "0–1 Years",
+    skills: ["HTML", "CSS", "JavaScript", "Frontend Development", "Internship"],
+    applyLink:
+      "https://www.naukri.com/job-listings-frontend-developer-intern-sourceease-hr-services-new-delhi-0-to-1-years-130226012169",
+    postedAt: "2025-02-13",
+  }
 ];
 
 /* ── Helper functions (swap these for DB queries when adding MongoDB) ── */

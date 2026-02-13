@@ -14,28 +14,35 @@ export default function AboutPage() {
       </h1>
 
       <p className="mt-4 leading-relaxed text-gray-700">
-        JobBoard is a modern job portal built to help professionals find their
-        next career opportunity. We curate quality job listings across frontend
-        development, remote work, and entry-level positions so you can focus on
-        what matters — landing the right role.
+        JobBoard is a dedicated career platform designed to bridge the gap between talented professionals and forward-thinking companies. 
+        Founded with a vision to simplify the job search process, we focus on curating high-quality opportunities in the tech sector, 
+        specifically targeting Frontend Development, Full Stack Engineering, and remote-friendly roles. 
+        Whether you are a fresh graduate looking for your first break or an experienced developer seeking a new challenge, 
+        JobBoard provides a streamlined, spam-free environment to help you advance your career.
       </p>
 
       <h2 className="mt-8 text-xl font-semibold text-gray-800">Our Mission</h2>
       <p className="mt-2 leading-relaxed text-gray-700">
-        We believe that finding a job should be simple, transparent, and
-        accessible. Our goal is to connect talented individuals with companies
-        that value their skills, regardless of location or experience level.
+        Our mission is to empower job seekers by providing them with accurate, detailed, and up-to-date job listings. 
+        We believe that transparency is key to a successful recruitment process. That's why every listing on our platform 
+        is vetted to ensure it meets our quality standards, providing you with all the essential details—from salary expectations 
+        to skill requirements—right upfront. We strive to create an ecosystem where talent meets opportunity seamlessly.
       </p>
 
       <h2 className="mt-8 text-xl font-semibold text-gray-800">
         Why Choose JobBoard?
       </h2>
       <ul className="mt-2 list-disc space-y-2 pl-6 text-gray-700">
-        <li>Curated, high-quality job listings — no spam</li>
-        <li>Clean, fast, and easy-to-navigate interface</li>
-        <li>Categories tailored for frontend developers, remote workers, and freshers</li>
-        <li>Free and open to all job seekers</li>
+        <li><strong>Curated Listings:</strong> We hand-pick jobs to ensure relevance and quality.</li>
+        <li><strong>Detailed Insights:</strong> clear view of responsibilities, benefits, and company culture.</li>
+        <li><strong>User-Centric Design:</strong> A clean, fast, and mobile-responsive interface without intrusive ads.</li>
+        <li><strong>Specialized Focus:</strong> Tailored categories for developers and remote workers.</li>
       </ul>
+
+      <h2 className="mt-8 text-xl font-semibold text-gray-800">Contact Us</h2>
+      <p className="mt-2 leading-relaxed text-gray-700">
+        We value your feedback. If you have questions or suggestions, please visit our <a href="/contact" className="text-blue-600 hover:underline">Contact page</a>.
+      </p>
     </article>
   );
 }
