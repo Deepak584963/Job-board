@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://jobboard.example.com/sitemap.xml",
+    sitemap: "https://job-board-one-chi.vercel.app/sitemap.xml",
   };
 }
