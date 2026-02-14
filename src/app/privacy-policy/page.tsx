@@ -79,10 +79,10 @@ export default function PrivacyPolicyPage() {
           If you have any questions about this privacy policy, please contact us
           at{" "}
           <a
-            href="mailto:hello@jobboard.example.com"
+            href="mailto:dk059511@gmail.com"
             className="text-blue-600 hover:underline"
           >
-            hello@jobboard.example.com
+            dk059511@gmail.com
           </a>
           .
         </p>
