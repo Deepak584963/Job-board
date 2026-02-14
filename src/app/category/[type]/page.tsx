@@ -34,17 +34,22 @@ export default async function CategoryPage({ params }: PageProps) {
   return (
     <>
       {/* Breadcrumb */}
-      <nav className="mb-6 text-sm text-gray-500">
-        <Link href="/" className="hover:text-blue-600">
+      <nav className="mb-6 text-sm text-gray-400">
+        <Link href="/" className="transition-colors hover:text-blue-600">
           Home
         </Link>
         <span className="mx-2">/</span>
-        <span className="text-gray-700">{label} Jobs</span>
+        <span className="text-gray-600">{label} Jobs</span>
       </nav>
 
-      <h1 className="mb-6 text-2xl font-bold text-gray-900 sm:text-3xl">
-        {label} Jobs
-      </h1>
+      <div className="mb-8 flex items-center justify-between">
+        <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+          {label} Jobs
+        </h1>
+        <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-600">
+          {jobs.length} {jobs.length === 1 ? "job" : "jobs"}
+        </span>
+      </div>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {jobs.map((job) => (

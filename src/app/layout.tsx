@@ -29,16 +29,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* AdSense Placeholder: Uncommon line below when you have your Pub ID */}
-        {/* <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        /> */}
-        
-      </head>
       <body className={`${inter.className} flex min-h-screen flex-col bg-gray-50 antialiased`}>
         {/* Google Analytics */}
         <Script
