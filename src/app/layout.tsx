@@ -9,16 +9,40 @@ const inter = Inter({ subsets: ["latin"] });
 
 /** Site-wide default metadata — individual pages override as needed */
 export const metadata: Metadata = {
+  metadataBase: new URL("https://job-board-one-chi.vercel.app"),
   title: {
     default: "JobBoard — Find Your Next Opportunity",
     template: "%s | JobBoard",
   },
   description:
     "Browse the latest job openings in frontend, remote, and fresher categories. Find your next career opportunity on JobBoard.",
+  applicationName: "JobBoard",
+  authors: [{ name: "JobBoard Team" }],
+  keywords: ["jobs", "frontend jobs", "remote jobs", "internships", "fresher jobs", "developer jobs", "React jobs", "JavaScript jobs"],
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: "https://job-board-one-chi.vercel.app",
     siteName: "JobBoard",
+    title: "JobBoard — Find Your Next Opportunity",
+    description: "Browse the latest job openings in frontend, remote, and fresher categories. Find your next career opportunity on JobBoard.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "JobBoard — Find Your Next Opportunity",
+    description: "Browse the latest job openings in frontend, remote, and fresher categories.",
+    creator: "@jobboard",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
