@@ -29,6 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5781883816349006"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={`${inter.className} flex min-h-screen flex-col bg-gray-50 antialiased`}>
         {/* Google Analytics */}
         <Script
