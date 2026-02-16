@@ -34,10 +34,10 @@ export default async function JobDetailPage({ params }: PageProps) {
   const job = getJobBySlug(slug);
   if (!job) notFound();
 
-  // Fetch related jobs
+  // Fetch related jobs — show more
   const relatedJobs = getJobsByCategory(job.category)
     .filter((j) => j.slug !== job.slug)
-    .slice(0, 3);
+    .slice(0, 4);
 
   // JSON-LD Structured Data for Google Jobs
   const jsonLd = {
@@ -85,12 +85,30 @@ export default async function JobDetailPage({ params }: PageProps) {
     },
   };
 
+  // Breadcrumb JSON-LD
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://job-board-one-chi.vercel.app/" },
+      { "@type": "ListItem", position: 2, name: `${job.category.charAt(0).toUpperCase() + job.category.slice(1)} Jobs`, item: `https://job-board-one-chi.vercel.app/category/${job.category}` },
+      { "@type": "ListItem", position: 3, name: job.title },
+    ],
+  };
+
+  // Check if job is recent (within 3 days)
+  const isRecent = (new Date().getTime() - new Date(job.postedAt).getTime()) < 3 * 24 * 60 * 60 * 1000;
+
   return (
     <article className="mx-auto max-w-6xl px-4 py-8">
-      {/* JSON-LD Script */}
+      {/* JSON-LD Scripts */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       {/* Breadcrumb */}
@@ -114,10 +132,15 @@ export default async function JobDetailPage({ params }: PageProps) {
         <div className="flex-1 min-w-0">
           {/* Job Header */}
           <header className="mb-8 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
-            <div className="mb-3">
+            <div className="mb-3 flex flex-wrap items-center gap-2">
               <span className="inline-block rounded-full bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-600">
                 {job.category}
               </span>
+              {isRecent && (
+                <span className="inline-block rounded-full bg-gradient-to-r from-green-500 to-emerald-500 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
+                  New
+                </span>
+              )}
             </div>
             <h1 className="text-2xl font-extrabold text-gray-900 sm:text-3xl lg:text-4xl">
               {job.title}
@@ -340,12 +363,51 @@ export default async function JobDetailPage({ params }: PageProps) {
                       <h4 className="text-sm font-semibold text-gray-800 group-hover:text-blue-600">
                         {related.title}
                       </h4>
-                      <p className="mt-1 text-xs text-gray-500">{related.company} &middot; {related.location}</p>
+                      <p className="mt-1 text-xs text-gray-500">{related.company} &middot; {related.location.split(",")[0]}</p>
                     </Link>
                   ))}
                 </div>
               </div>
             )}
+
+            {/* Share This Job */}
+            <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">Share This Job</h3>
+              <div className="mt-3 flex gap-2">
+                <a
+                  href={`https://wa.me/?text=${encodeURIComponent(`${job.title} at ${job.company} - https://job-board-one-chi.vercel.app/jobs/${job.slug}`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 rounded-lg bg-green-50 py-2.5 text-center text-xs font-semibold text-green-700 transition-colors hover:bg-green-100"
+                >
+                  WhatsApp
+                </a>
+                <a
+                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://job-board-one-chi.vercel.app/jobs/${job.slug}`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 rounded-lg bg-blue-50 py-2.5 text-center text-xs font-semibold text-blue-700 transition-colors hover:bg-blue-100"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${job.title} at ${job.company}`)}&url=${encodeURIComponent(`https://job-board-one-chi.vercel.app/jobs/${job.slug}`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 rounded-lg bg-sky-50 py-2.5 text-center text-xs font-semibold text-sky-700 transition-colors hover:bg-sky-100"
+                >
+                  Twitter
+                </a>
+              </div>
+            </div>
+
+            {/* Browse all jobs link */}
+            <Link
+              href="/"
+              className="block rounded-2xl border border-gray-200 bg-gradient-to-r from-gray-50 to-gray-100 p-5 text-center text-sm font-semibold text-gray-700 transition-colors hover:from-blue-50 hover:to-indigo-50 hover:text-blue-700"
+            >
+              ← Browse All Jobs
+            </Link>
 
           </div>
         </aside>

@@ -54,6 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google AdSense - must be in <head> per AdSense requirements */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5781883816349006"

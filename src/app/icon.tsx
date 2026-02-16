@@ -1,12 +1,9 @@
 import { ImageResponse } from "next/og";
 
-// Route segment config
-export const runtime = "edge";
-
 // Image metadata
 export const size = {
-  width: 32,
-  height: 32,
+  width: 512,
+  height: 512,
 };
 export const contentType = "image/png";
 
@@ -16,7 +13,7 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 24,
+          fontSize: 320,
           background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
           width: "100%",
           height: "100%",
@@ -24,9 +21,8 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           color: "white",
-          borderRadius: "6px",
+          borderRadius: "32px",
           fontWeight: 700,
-          fontFamily: "sans-serif",
         }}
       >
         J

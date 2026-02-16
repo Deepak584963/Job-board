@@ -1076,8 +1076,8 @@ export const jobs: Job[] = [
     experience: "0–3 Years",
     skills: ["React.js", "JavaScript", "Redux", "HTML5", "CSS3"],
     applyLink:
-      "https://www.naukri.com/job-listings-react-js-developer-innovsense-technologies-ahmedabad-0-to-3-years-130226503917",
-    postedAt: "2025-02-13",
+      "https://www.naukri.com/job-listings-react-js-developer-innovsense-technologies-ahmedabad-0-to-3-years-160226506333",
+    postedAt: "2026-02-16",
   },
   {
     title: "Angular Developer",
@@ -1204,6 +1204,384 @@ export const jobs: Job[] = [
     applyLink:
       "https://www.naukri.com/job-listings-frontend-developer-intern-sourceease-hr-services-new-delhi-0-to-1-years-130226012169",
     postedAt: "2025-02-13",
+  },
+  {
+    title: "Intern - Full Stack Development",
+    company: "OnGrid",
+    location: "Gurugram, India",
+    category: "internship",
+    slug: "intern-full-stack-development-ongrid-gurugram",
+    description:
+      "OnGrid in Gurugram is hiring an Intern for Full Stack Development. This role is ideal for candidates with 0–1 year of experience who want to work on end-to-end web applications using modern technologies.",
+    overview:
+      "OnGrid is looking for a passionate Full Stack Development Intern to join its Gurugram office. As an intern, you will get hands-on exposure to both frontend and backend development, working on live projects that impact real users. OnGrid builds technology solutions for background verification and identity management, giving you the chance to contribute to a meaningful product. You will collaborate with experienced engineers, participate in sprint planning, and gain a deep understanding of building scalable web applications from the ground up. This internship is designed to fast-track your career in full stack engineering.",
+    responsibilities: [
+      "Develop and maintain frontend interfaces using React or similar frameworks.",
+      "Build and integrate RESTful APIs using Node.js or similar backend technologies.",
+      "Participate in code reviews and follow best coding practices.",
+      "Write unit and integration tests to ensure code reliability.",
+      "Collaborate with product and design teams to translate requirements into technical solutions.",
+      "Debug and resolve issues across the full technology stack."
+    ],
+    requirements: [
+      "0–1 year of experience in web development or relevant internships.",
+      "Familiarity with HTML, CSS, JavaScript, and at least one backend language.",
+      "Basic understanding of databases such as MongoDB or PostgreSQL.",
+      "Knowledge of version control systems like Git.",
+      "Strong problem-solving skills and eagerness to learn.",
+      "Good communication and teamwork abilities."
+    ],
+    benefits: [
+      "Work on a real product used by enterprises across India.",
+      "Mentorship from senior full stack engineers.",
+      "Pre-placement offer opportunity based on performance.",
+      "Exposure to agile development practices.",
+      "Collaborative and growth-oriented work environment."
+    ],
+    aboutCompany:
+      "OnGrid is a Gurugram-based technology company specializing in digital identity verification and background check solutions. Their platform is used by businesses to automate and streamline employee verification processes, leveraging advanced technology to ensure trust and compliance.",
+    salary: "Not Disclosed",
+    experience: "0–1 Years",
+    skills: ["React", "Node.js", "JavaScript", "MongoDB", "REST APIs", "Git"],
+    applyLink:
+      "https://www.naukri.com/job-listings-intern-full-stack-development-ongrid-gurugram-0-to-1-years-160226501111",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "MERN Stack Developer",
+    company: "Excellence Technologies",
+    location: "Noida, India",
+    category: "fresher",
+    slug: "mern-stack-developer-excellence-technologies-noida",
+    description:
+      "Excellence Technologies in Noida is hiring a MERN Stack Developer with 0–1 year of experience. This is a great opportunity for freshers who have hands-on skills in MongoDB, Express.js, React, and Node.js.",
+    overview:
+      "Excellence Technologies is seeking a MERN Stack Developer to join their development team in Noida. This position welcomes freshers and candidates with up to 1 year of experience who are proficient in the MERN technology stack. You will work on building dynamic web applications, developing APIs, and creating responsive user interfaces. The role provides an opportunity to grow rapidly in a product-driven environment, working alongside experienced developers on projects that serve clients across multiple industries. Excellence Technologies values innovation and encourages developers to experiment with new tools and approaches.",
+    responsibilities: [
+      "Design and develop full stack web applications using MongoDB, Express.js, React, and Node.js.",
+      "Create reusable, efficient, and scalable frontend components in React.",
+      "Build RESTful APIs and integrate third-party services.",
+      "Ensure application responsiveness and cross-browser compatibility.",
+      "Write clean, documented, and maintainable code.",
+      "Collaborate with the team on architecture decisions and project planning."
+    ],
+    requirements: [
+      "0–1 year of experience with the MERN stack.",
+      "Strong understanding of JavaScript and ES6+ features.",
+      "Hands-on experience with React.js and state management libraries.",
+      "Familiarity with Node.js and Express.js for server-side development.",
+      "Basic knowledge of MongoDB and database design.",
+      "Understanding of Git and collaborative development workflows."
+    ],
+    benefits: [
+      "Opportunity to work on diverse client projects.",
+      "Skill development through challenging assignments.",
+      "Supportive team culture with regular knowledge sharing.",
+      "Career growth opportunities within the organization.",
+      "Exposure to modern development tools and practices."
+    ],
+    aboutCompany:
+      "Excellence Technologies is a Noida-based IT services and software development company offering web and mobile application solutions to clients globally. They focus on delivering high-quality digital products using cutting-edge technologies and agile methodologies.",
+    salary: "Not Disclosed",
+    experience: "0–1 Years",
+    skills: ["MongoDB", "Express.js", "React", "Node.js", "JavaScript", "REST APIs"],
+    applyLink:
+      "https://www.naukri.com/job-listings-mern-stack-developer-excellence-technologies-noida-0-to-1-years-061125029569",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "Full Stack Engineer",
+    company: "Alter Domus",
+    location: "Hyderabad, India",
+    category: "frontend",
+    slug: "full-stack-engineer-alter-domus-hyderabad",
+    description:
+      "Alter Domus is hiring a Full Stack Engineer in Hyderabad with 0–5 years of experience. Join a global financial services firm and work on building enterprise-grade web applications.",
+    overview:
+      "Alter Domus, a leading global provider of integrated solutions for the alternative investment industry, is looking for a Full Stack Engineer to join their Hyderabad technology center. This role is open to candidates ranging from freshers to those with up to 5 years of experience. You will contribute to building and maintaining applications that support fund administration, corporate services, and capital markets. The position offers the chance to work in a highly professional environment with international exposure, leveraging modern web technologies to deliver robust and scalable financial technology solutions. Alter Domus provides a structured career path and invests heavily in employee development.",
+    responsibilities: [
+      "Develop and maintain full stack web applications for financial platforms.",
+      "Design scalable backend services and integrate them with frontend interfaces.",
+      "Participate in system architecture discussions and technical planning.",
+      "Write comprehensive unit and integration tests.",
+      "Collaborate with global teams across different time zones.",
+      "Optimize application performance and ensure security best practices."
+    ],
+    requirements: [
+      "0–5 years of experience in full stack development.",
+      "Proficiency in JavaScript/TypeScript with React or Angular on the frontend.",
+      "Experience with backend technologies like Node.js, Java, or .NET.",
+      "Understanding of relational and NoSQL databases.",
+      "Familiarity with cloud platforms (AWS, Azure, or GCP).",
+      "Strong analytical thinking and communication skills."
+    ],
+    benefits: [
+      "Work with a globally recognized financial services company.",
+      "International exposure and collaboration with global teams.",
+      "Competitive compensation and comprehensive benefits package.",
+      "Structured learning and career development programs.",
+      "Modern office environment in Hyderabad."
+    ],
+    aboutCompany:
+      "Alter Domus is a leading provider of integrated solutions for the alternative investment industry, serving private equity, real estate, infrastructure, and debt capital markets. With offices in over 20 countries, the company combines deep industry expertise with innovative technology to deliver best-in-class services to its clients worldwide.",
+    salary: "Not Disclosed",
+    experience: "0–5 Years",
+    skills: ["React", "Node.js", "TypeScript", "JavaScript", "SQL", "Cloud Services"],
+    applyLink:
+      "https://www.naukri.com/job-listings-full-stack-engineer-at-alter-domus-alter-domus-hyderabad-0-to-5-years-160226508381",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "Frontend Intern",
+    company: "Vidyayatan Technologies",
+    location: "Bhopal, India",
+    category: "internship",
+    slug: "frontend-intern-vidyayatan-technologies-bhopal",
+    description:
+      "Vidyayatan Technologies in Bhopal is offering a Frontend Internship for candidates with 0–5 years of experience. Gain practical frontend development skills while working on real projects.",
+    overview:
+      "Vidyayatan Technologies is looking for a Frontend Intern to join their Bhopal office. This internship is designed for individuals who want to build a strong foundation in frontend web development. You will work on creating interactive web pages, implementing responsive layouts, and learning modern JavaScript frameworks. The company offers a mentorship-driven environment where interns receive guidance from senior developers while contributing to real client deliverables. Vidyayatan Technologies believes in nurturing talent and provides a clear pathway from internship to full-time employment for high-performing candidates.",
+    responsibilities: [
+      "Develop responsive web pages using HTML, CSS, and JavaScript.",
+      "Assist in building interactive UI components using modern frameworks.",
+      "Test and debug applications to ensure cross-browser compatibility.",
+      "Collaborate with the design team to implement UI mockups.",
+      "Write clean and well-documented code following team standards.",
+      "Participate in daily standups and sprint reviews."
+    ],
+    requirements: [
+      "0–5 years of experience (freshers encouraged to apply).",
+      "Knowledge of HTML5, CSS3, and JavaScript fundamentals.",
+      "Familiarity with any frontend framework like React, Angular, or Vue.js.",
+      "Understanding of responsive design principles.",
+      "Good problem-solving aptitude and willingness to learn.",
+      "Ability to work independently and in a team."
+    ],
+    benefits: [
+      "Hands-on experience with production-grade projects.",
+      "Mentorship from experienced frontend developers.",
+      "Internship certificate upon successful completion.",
+      "Possibility of full-time conversion based on performance.",
+      "Flexible and supportive learning environment."
+    ],
+    aboutCompany:
+      "Vidyayatan Technologies is a Bhopal-based IT solutions company that offers software development, web design, and digital marketing services. The company emphasizes innovation and quality while providing a nurturing environment for budding developers to grow their careers.",
+    salary: "Not Disclosed",
+    experience: "0–5 Years",
+    skills: ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design", "UI Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-frontend-intern-vidyayatan-technologies-bhopal-0-to-5-years-160226506388",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "Full Stack Web Development Intern",
+    company: "Future Interns",
+    location: "Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Bengaluru, India",
+    category: "internship",
+    slug: "full-stack-web-development-intern-future-interns-multiple-cities",
+    description:
+      "Future Interns is hiring Full Stack Web Development Interns across multiple cities including Kolkata, Mumbai, New Delhi, Hyderabad, Pune, Chennai, and Bengaluru. This fresher-level opportunity is perfect for aspiring developers.",
+    overview:
+      "Future Interns is seeking enthusiastic freshers for a Full Stack Web Development Internship available across seven major Indian cities. This internship provides a comprehensive learning experience covering both frontend and backend web development. As an intern, you will work on real-world projects, build dynamic websites, and gain practical knowledge of the complete software development lifecycle. The program is structured to help you transition from academic knowledge to industry-ready skills, with dedicated mentorship and project-based learning. Future Interns has helped thousands of aspiring developers kick-start their careers in technology.",
+    responsibilities: [
+      "Build full stack web applications using modern technologies.",
+      "Develop frontend pages with HTML, CSS, JavaScript, and React.",
+      "Create backend APIs using Node.js or Python-based frameworks.",
+      "Work with databases to store and retrieve application data.",
+      "Participate in project presentations and code walkthroughs.",
+      "Follow coding best practices and maintain clean documentation."
+    ],
+    requirements: [
+      "Fresher – no prior professional experience required.",
+      "Basic understanding of HTML, CSS, and JavaScript.",
+      "Interest in learning full stack web development.",
+      "Familiarity with any programming language is a plus.",
+      "Strong motivation to learn and complete assigned projects.",
+      "Good written and verbal communication skills."
+    ],
+    benefits: [
+      "Multi-city availability – work from your nearest location.",
+      "Internship completion certificate.",
+      "Project-based learning with real-world applications.",
+      "Mentorship and guidance from industry professionals.",
+      "Letter of recommendation for outstanding performers."
+    ],
+    aboutCompany:
+      "Future Interns is an internship platform that connects aspiring professionals with hands-on learning opportunities across various technology domains. With presence in multiple Indian cities, they provide structured internship programs designed to bridge the gap between academic learning and industry requirements.",
+    salary: "Not Disclosed",
+    experience: "Fresher",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Full Stack Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-full-stack-web-development-intern-future-interns-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-0-to-0-years-160226503065",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "Frontend Intern",
+    company: "Gravity Engineering Services",
+    location: "Raipur, India",
+    category: "internship",
+    slug: "frontend-intern-gravity-engineering-services-raipur",
+    description:
+      "Gravity Engineering Services in Raipur is hiring a Frontend Intern with 0–1 year of experience. This internship offers practical exposure to modern frontend technologies and real project work.",
+    overview:
+      "Gravity Engineering Services is looking for a Frontend Intern to join their team in Raipur. This opportunity is ideal for fresh graduates or individuals with up to 1 year of experience who are passionate about creating beautiful and functional web interfaces. During this internship, you will work alongside experienced developers, build responsive web pages, and learn industry-standard tools and workflows. Gravity Engineering Services provides a supportive and collaborative environment where interns are encouraged to ask questions, take initiative, and grow their technical capabilities. Successful interns may be considered for full-time positions within the company.",
+    responsibilities: [
+      "Develop responsive and visually appealing web pages using HTML, CSS, and JavaScript.",
+      "Implement UI designs from wireframes and mockups.",
+      "Assist in integrating frontend components with backend services.",
+      "Test applications across different browsers and devices.",
+      "Participate in code reviews and team discussions.",
+      "Document code changes and contribute to technical documentation."
+    ],
+    requirements: [
+      "0–1 year of experience or recent graduate in Computer Science or related field.",
+      "Basic proficiency in HTML5, CSS3, and JavaScript.",
+      "Awareness of responsive design and CSS frameworks like Bootstrap or Tailwind.",
+      "Interest in learning modern JavaScript frameworks.",
+      "Good analytical thinking and attention to detail.",
+      "Willingness to learn and adapt to new technologies."
+    ],
+    benefits: [
+      "Real-world project experience in frontend development.",
+      "Mentorship from senior developers.",
+      "Internship certificate upon completion.",
+      "Potential for full-time employment after internship.",
+      "Friendly and learning-focused workplace."
+    ],
+    aboutCompany:
+      "Gravity Engineering Services is a Raipur-based company providing engineering and technology solutions. They work across multiple domains and are committed to fostering talent by offering meaningful internship experiences that prepare individuals for successful careers in technology.",
+    salary: "Not Disclosed",
+    experience: "0–1 Years",
+    skills: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design", "Frontend Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-frontend-intern-gravity-engineering-services-raipur-0-to-1-years-160226006715",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "React and Node.js Developer",
+    company: "Mylapay",
+    location: "Chennai, India",
+    category: "frontend",
+    slug: "react-and-node-js-developer-mylapay-chennai",
+    description:
+      "Mylapay in Chennai is looking for a React and Node.js Developer with 0–1 year of experience. Work on fintech applications and build scalable web solutions using React and Node.js.",
+    overview:
+      "Mylapay is seeking a React and Node.js Developer to join their Chennai-based engineering team. This role is well suited for candidates with 0–1 year of experience who have a strong grasp of both frontend and backend JavaScript technologies. As a developer at Mylapay, you will contribute to building and maintaining fintech applications that facilitate digital payments and financial services. The company operates at the intersection of finance and technology, offering a unique opportunity to work on products that handle real-world transactions. Mylapay encourages innovation, provides a collaborative work culture, and supports continuous technical growth.",
+    responsibilities: [
+      "Develop and maintain web applications using React.js and Node.js.",
+      "Build RESTful APIs and integrate them with frontend interfaces.",
+      "Implement responsive and accessible user interfaces.",
+      "Write and maintain unit tests for frontend and backend code.",
+      "Collaborate with cross-functional teams including product and QA.",
+      "Optimize application performance and troubleshoot production issues."
+    ],
+    requirements: [
+      "0–1 year of experience with React.js and Node.js.",
+      "Strong understanding of JavaScript and modern ES6+ syntax.",
+      "Experience with state management solutions in React.",
+      "Familiarity with Express.js or similar Node.js frameworks.",
+      "Basic knowledge of databases (SQL or NoSQL).",
+      "Understanding of RESTful API design and integration."
+    ],
+    benefits: [
+      "Work in the exciting fintech domain.",
+      "Opportunity to build products handling real financial transactions.",
+      "Collaborative and innovation-driven work culture.",
+      "Career growth opportunities in a fast-growing company.",
+      "Exposure to cutting-edge technology stack."
+    ],
+    aboutCompany:
+      "Mylapay is a Chennai-based fintech company that provides digital payment solutions and financial technology services. The company is focused on building secure, scalable, and user-friendly platforms that simplify financial transactions for businesses and consumers alike.",
+    salary: "Not Disclosed",
+    experience: "0–1 Years",
+    skills: ["React.js", "Node.js", "JavaScript", "Express.js", "REST APIs", "MongoDB"],
+    applyLink:
+      "https://www.naukri.com/job-listings-react-and-node-js-developer-mylapay-chennai-0-to-1-years-160226016530",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "Full Stack Developer",
+    company: "GoDigi Infotech",
+    location: "Pune, India",
+    category: "fresher",
+    slug: "full-stack-developer-godigi-infotech-pune",
+    description:
+      "GoDigi Infotech in Pune is hiring a Full Stack Developer with 0–1 year of experience. Build end-to-end web applications and grow your career in a dynamic development team.",
+    overview:
+      "GoDigi Infotech is looking for a Full Stack Developer to join their Pune office. This entry-level position is perfect for freshers and candidates with up to 1 year of experience who want to work across the entire web development stack. You will be involved in designing, developing, and deploying web applications that serve real business needs. GoDigi Infotech works with clients from various industries, providing a rich and varied learning experience. The company promotes a culture of continuous learning and provides its developers with the tools and mentorship needed to excel in their careers.",
+    responsibilities: [
+      "Design and develop full stack web applications from concept to deployment.",
+      "Build responsive frontend interfaces using React or Angular.",
+      "Develop server-side logic and database integrations using Node.js.",
+      "Implement and consume RESTful APIs.",
+      "Participate in agile ceremonies including sprint planning and retrospectives.",
+      "Troubleshoot and debug issues across the application stack."
+    ],
+    requirements: [
+      "0–1 year of experience in full stack web development.",
+      "Proficiency in JavaScript with frameworks like React or Angular.",
+      "Knowledge of backend development with Node.js or similar technologies.",
+      "Understanding of database management with MongoDB or MySQL.",
+      "Familiarity with Git and CI/CD practices.",
+      "Strong problem-solving skills and a proactive attitude."
+    ],
+    benefits: [
+      "Diverse project exposure across industries.",
+      "Mentorship and learning opportunities from experienced developers.",
+      "Comfortable and modern office in Pune.",
+      "Performance-based career advancement.",
+      "Team outings and a collaborative work culture."
+    ],
+    aboutCompany:
+      "GoDigi Infotech is a Pune-based digital solutions company specializing in web development, mobile applications, and digital marketing. They help businesses establish their digital presence with high-quality, scalable technology solutions.",
+    salary: "Not Disclosed",
+    experience: "0–1 Years",
+    skills: ["React", "Node.js", "JavaScript", "MongoDB", "REST APIs", "Git"],
+    applyLink:
+      "https://www.naukri.com/job-listings-full-stack-developer-godigi-infotech-pune-0-to-1-years-160226504360",
+    postedAt: "2026-02-16",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "KRAN",
+    location: "Thiruvananthapuram, India",
+    category: "internship",
+    slug: "software-engineer-intern-kran-thiruvananthapuram",
+    description:
+      "KRAN in Thiruvananthapuram is hiring a Software Engineer Intern. This fresher-level internship provides an excellent opportunity to gain practical software engineering experience in a professional environment.",
+    overview:
+      "KRAN is seeking a Software Engineer Intern to join their team in Thiruvananthapuram. This internship is tailored for fresh graduates who are eager to apply their academic knowledge in a real-world software development setting. You will work on various aspects of software engineering including coding, testing, debugging, and deployment. KRAN values fresh perspectives and encourages interns to contribute ideas while learning from seasoned professionals. The internship covers a broad range of technologies and methodologies, giving you a well-rounded foundation for a successful career in software engineering. Top-performing interns will be considered for full-time positions.",
+    responsibilities: [
+      "Assist in designing and developing software applications.",
+      "Write clean and efficient code following team coding standards.",
+      "Participate in testing and quality assurance activities.",
+      "Help debug and resolve software defects.",
+      "Collaborate with team members on feature development.",
+      "Document technical specifications and project progress."
+    ],
+    requirements: [
+      "Fresher – no prior professional experience required.",
+      "Degree in Computer Science, IT, or a related field.",
+      "Basic programming knowledge in languages like JavaScript, Python, or Java.",
+      "Understanding of data structures and algorithms.",
+      "Familiarity with web development technologies is a plus.",
+      "Strong analytical mindset and eagerness to learn."
+    ],
+    benefits: [
+      "Practical software engineering experience.",
+      "Mentorship from experienced software engineers.",
+      "Internship certificate and letter of recommendation.",
+      "Opportunity for full-time conversion based on performance.",
+      "Collaborative and innovation-friendly workplace."
+    ],
+    aboutCompany:
+      "KRAN is a Thiruvananthapuram-based technology company focused on building innovative software solutions. The company works across multiple technology domains and is committed to developing the next generation of software engineers through structured internship programs.",
+    salary: "Not Disclosed",
+    experience: "Fresher",
+    skills: ["JavaScript", "Python", "Software Development", "Problem Solving", "Git", "Web Development"],
+    applyLink:
+      "https://www.naukri.com/job-listings-software-engineer-intern-kran-thiruvananthapuram-0-to-0-years-160226501421",
+    postedAt: "2026-02-16",
   }
 ];
 
